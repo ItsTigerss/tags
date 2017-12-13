@@ -1,3 +1,51 @@
+/* "Status Circles v1.2" by ItsTigerr */
+.channel-members .avatar-small .status,
+.private-channels .avatar-small .status,
+.account .avatar-small .status {
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent;
+    border-radius: 50%;
+    top: -2px;
+    left: -2px;
+    box-shadow: 0 0 1px #000 inset;
+}
+.channel-members .avatar-small .status-online,
+.private-channels  .avatar-small .status-online,
+.account .avatar-small .status-online {
+    border: 2px solid #43b581 !important;
+}
+.channel-members .avatar-small .status-idle,
+.private-channels  .avatar-small .status-idle,
+.account .avatar-small .status-idle {
+    border: 2px solid #faa61a !important;
+}
+.channel-members .avatar-small .status-dnd,
+.private-channels  .avatar-small .status-dnd,
+.account .avatar-small .status-dnd {
+    border: 2px solid #f04747 !important;
+}
+.channel-members .avatar-small .status-streaming,
+.private-channels .avatar-small .status-streaming,
+.account .avatar-small .status-streaming {
+    border: 2px solid #643da7 !important;
+}
+.channel-members .avatar-small .status-invisible,
+.private-channels  .avatar-small .status-invisible,
+.account .avatar-small .status-invisible {
+    border: 2px solid #747f8d !important;
+}
+.private-channels  .avatar-small .status-offline {
+    border: 2px solid transparent !important;
+}
+.status.status-typing {
+    width: 30px !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.status.status-typing .spinner .spinner-inner {
+    left: 1px;
+    top: 1px;
+}
 .message-group:not(.compact) .avatar-large[style*="ID"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="ID"] ~ .member-inner .member-username .member-username-inner::after{content:"TAG";background:color;color:#fff;border-radius:3px;border: 1px solid #672382;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
 
 .message-group:not(.compact) .avatar-large[style*="300365386031824897"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="300365386031824897"] ~ .member-inner .member-username .member-username-inner::after{content:"DOGGO";background:#00a4e4;color:#fff;border-radius:3px;border: 1px solid #672382;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
